@@ -12,6 +12,6 @@ while True:
         a, op, b = input('a_?_b: ').split()
         print(f'= {calc(a, op, b)}')
     except Exception as e:
-        print(f'Error: {e}, try again 👀')
+        print(f'Error: {e}, try again')
     finally:
         print('Ctrl + C to interrupt ⛔')
